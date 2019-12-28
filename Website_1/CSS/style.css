@@ -1,0 +1,123 @@
+body{
+    background: #f4e8f4;
+    color: #556;
+    font-family: Verdana, Geneva, sans-serif;
+    font: 16px;
+    line-height: 1.6em;
+    margin: 0px;   
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+#main-header{
+    background: #19f;
+    color: #556;
+}
+
+#navbar{
+    background: #344;
+    color: aliceblue;
+}
+
+#navbar ul{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    
+}
+
+#navbar li{
+    float: left;
+    width: 25%;
+    padding-bottom: 15px;
+}
+
+#navbar a{
+    font-family: tahoma, geneva, sans-serif;
+    color:azure;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#showcase{
+    background-image: url(../Images/Clouds.jpg);
+    background-position: bottom right;
+    color: floralwhite;
+    min-height: 130px;
+    text-align: center;
+    margin: 0px;
+    line-height: 1.8em;
+    font-size: 22px;
+}
+
+#main{
+    float: left;
+    width: 70%;
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    background: #555669;
+    color: antiquewhite;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.few{
+    padding-left: 9px;
+}
+
+.form-group{
+    padding: 10px;
+}
+.form-group label{
+    display: block;
+    width: 40%;
+    background: #444;
+    color: #ccc;
+}
+.form-group input[type="text"], input[type="email"]{
+    width: 39.7%;
+}
+.form-group textarea{
+    margin-top: 5px;
+    width: 50%;
+    height: 80px;
+}
+.form-group input[type= "submit"]{
+    margin: 10px 0px;
+    padding: 10px 15px;
+}
+.button{
+    color: aliceblue;
+    background: #555;
+}
+.button:hover{
+    color: #ddd;
+    background: #f14;
+}
+
+#main-footer{
+    background: #444;
+    color: #ccc;
+    text-align: center;
+    font-size: 12px;
+}
+
+@media(max-width:600px){
+    #main{
+        width: 100%;
+        float: none;
+    }
+    #sidebar{
+        width: 100%;
+        float: none;
+    }
+}
