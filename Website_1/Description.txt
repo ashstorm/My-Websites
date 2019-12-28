@@ -1,0 +1,2 @@
+This file has been created using just html and css.
+Please ignore the rubbish text used at some places that was just a way to fill up the space.
